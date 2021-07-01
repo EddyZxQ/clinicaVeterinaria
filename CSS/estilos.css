@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:  #A67E6B;
+}
+
+
+/*TITULO*/
+header {
+    text-align: center;
+    background-color: #E2BEA6;
+    font-family: "Poppins-Bold";
+    color:#33251f;
+
+}
+
+
+
+/*MENU DE NAVEGACION */
+
+.menu {
+    overflow: auto;
+    text-align: center;
+}
+  
+.menu li{
+    display: inline-block;
+    padding: 5px;
+}
+
+nav a:link, a:visited{
+    background-color:#faebd7;
+    color: #694C41;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border:#E2BEA6 2px solid;
+    box-shadow: 0px 0px 5px #faebd7;
+    font-size: 16pt;
+
+
+}
+
+nav a:hover, a:active {
+    background-color: #E2BEA6 ;
+    color: black;
+    border:#faebd7 2px solid;
+    box-shadow: 0px 0px 5px #E2BEA6;
+
+}
+
+/*SECCION PRINCIPAL*/
+
+
+/*CONTENEDOR A*/
+
+.contenedorA{
+    background-color: #694C41;
+    border-radius: 35px;
+    width: 60%;
+    margin: 15px auto;
+    box-shadow: 0px 0px 5px black;
+    text-align: center;
+    
+}
+
+.contenidoA h1{
+    font-family: "Poppins-Bold";
+}
+
+.contenidoA{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+    color: #faebd7;
+    text-align: center;
+}
+
+/*CONTENEDOR B*/
+.contenedorB{
+    width: 60%;
+    margin: 15px auto;
+    text-align: center;
+}
+
+
+/*CONTENEDOR C*/
+.contenedorC {
+    background-color: #694C41;
+    border-radius: 35px;
+    width: 48%;
+    margin: 15px 1%;
+    box-shadow: 0px 0px 5px black;
+    float: left;
+}
+
+.contenidoC img{
+    width: 100%;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    box-shadow: 0px 0px 5px white;
+    border: white 3px solid;
+}
+
+.contenidoC h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    text-align: center;
+    color: #faebd7;
+}
+
+/*CONTENEDOR D*/
+.contenedorD{
+    background-color: #694C41;
+    border-radius: 35px;
+    width: 60%;
+    margin: 15px auto;
+    box-shadow: 0px 0px 5px black;
+}
+
+.contenidoD h1{
+    font-family: "Poppins-Bold";
+}
+
+.contenidoD{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+    color: #faebd7;
+    
+}
+
+/*CONTENEDOR E*/
+
+.conteendorE{
+    border-radius: 35px;
+    width: 48%;
+    margin: 15px 1%;
+    box-shadow: 0px 0px 5px black;
+    float: left;
+}
+
+
+/*ESTILO BOTONES*/
+
+.boton a:link, a:visited{
+    font-family: "Poppins-Bold";
+    background-color:#faebd7;
+    color: #4B3621;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border:#E2BEA6 2px solid;
+    box-shadow: 0px 0px 5px #faebd7;
+       
+}
+    
+div.boton a:hover, a:active {
+    background-color: #E2BEA6 ;
+    color: black;
+    border:#faebd7 2px solid;
+    box-shadow: 0px 0px 5px #E2BEA6;   
+}
+
+
+input[type=submit],[type=reset] {
+    background-color:#faebd7;
+    color: #4B3621;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    border:#E2BEA6 2px solid;
+    box-shadow: 0px 0px 5px #faebd7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type=submit]:hover, [type=reset]:hover {
+    background-color: #E2BEA6;
+}
+
+
+/*FORMULARIO*/
+label {
+
+    padding: 0px 0px 12px;
+    display: inline-block;
+}
+  
+
+form{
+    border-radius: 5px;
+    padding: 30px;
+}
+  
+.columna25 {
+    float: left;
+    width: 40%;
+    margin-top: 6px;
+}
+  
+.columna75 {
+    float: left;
+    width: 60%;
+    margin-top: 6px;
+}
+  
+input[type=text],[type=email],[type=date], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.fila:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fila2{
+    text-align: center;
+}
+
+
+/*GALERIA*/
+
+.contenedorE img{
+    width: 48%;
+    box-shadow: 0px 0px 5px white;
+    border: white 3px solid;
+    margin: 2px 2px;
+}
+
+/*RESPONSIVE PARA MOVILES*/
+
+@media only screen and (max-width:620px) {
+    .menu, .main, .seccionPrincipal .contenedorA, .contenedorB{
+      width:100%;
+    }
+
+    .seccionFormulario .contenedorA, .contenedorB{
+        width: 100%;
+    }
+
+    .columna25, .columna75 {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .input[type=submit],[type=reset]{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+/*FUENTES IMPORTADAS*/
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("../fonts/Poppins-Bold.ttf");
+}

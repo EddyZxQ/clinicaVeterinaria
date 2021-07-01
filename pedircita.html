@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+
+    <link rel="shortcut icon" href="images/clinicaveterinaria.png" type="image/png">
+    <link rel="stylesheet" href="CSS/estilos.css">
+
+    <meta charset="UTF-8">
+    <meta name="ClinicaVeterinaria" content="clincia veterinaria">
+    <meta name="author" content="Edgar Lopez">
+    <meta name="description" content="Pagina principal-Clinica">
+    <meta name="copyright" content="Edgar Lopez">
+    <meta name="keywords" content="contacto, Clinica, clinica, clinica veterinaria, veterinario">
+    <meta name="organization" content="EddyjejeXD">
+    <meta name="language" content="es">
+    <title>Clincia Veterinaria - Contacto</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Clinica Veterinaria</h1>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <section class="seccionFormulario">
+            <div class="contenedorD">
+
+                <div class="contenidoD">
+                    <form method="post" id="formulario" name="formulario" action="">
+
+                        <h1>Datos personales</h1>
+
+                        <div class="fila">
+                            <div class="columna25">
+                                <label for="id_nombre">Nombre:</label>
+                            </div>
+                            <div class="columna75">
+                                <input type="text" name="id_nombre" id="id_nombre" placeholder="Escribe tu nombre.." autofocus>   
+                            </div>
+                        </div>
+
+                        <div class="fila">
+                            <div class="columna25">
+                                <label for="id_apellidos">Apellidos: </label>
+                            </div>
+                            <div class="columna75">
+                                <input type="text" name="id_apellidos" id="id_apellidos"> 
+                            </div>
+                        </div>
+
+                        <div class="fila">
+                            <div class="columna25">
+                                <label for="id_tel">Telefono: </label>
+                            </div>
+                            <div class="columna75">
+                                <input type="text"  name="id_tel" id="id_tel">
+                            </div>
+                        </div>
+
+                        <div class="fila">
+                            <div class="columna25">
+                                <label for="id_poblacion">Ciudad: </label>
+                            </div>
+                            <div class="columna75">
+                                <input type="text" name="id_poblacion" id="id_poblacion">    
+                            </div>
+                        </div>
+
+                        <div class="fila">
+                            <div class="columna25">
+                                <label for="id_poblacion">Calle: </label>
+                            </div>
+                            <div class="columna75">
+                                <input type="text" name="id_poblacion" id="id_poblacion">    
+                            </div>
+                        </div>
+
+                        <div class="fila">
+                            <div class="columna25">
+                                <label for="id_preferenciacita">Cita:</label>
+                            </div>
+                            <div class="columna75">
+                                <select name="id_preferenciacita" id="id_preferenciacita">
+                                    <optgroup  label=" PREFERENCIA DE HORARIO DE CITA">
+                                        <option value="" selected></option>
+                                        <option value="">Mañanas</option>
+                                        <option value="">Tardes</option>
+                                    </optgroup>
+                                </select>   
+                            </div>
+                        </div>
+
+                        <div class="fila">
+                            <div class="columna25">
+                                <label for="id_email">Email: </label>
+                            </div>
+                            <div class="columna75">
+                                <input type="email" name="id_email" id="id_email" placeholder="example@gmail.com"> 
+                            </div>
+                        </div>
+
+                        <div class="fila">
+                            <div class="columna25">
+                                <label for="id_codigopostal">Codigo Postal:</label>
+                            </div>
+                            <div class="columna75">
+                                <input type="text" pattern="[0-9]{5}" name="id_codigopostal" id="id_codigopostal"  title="Inserte los 5 numeros de su codigo postal" >   
+                            </div>
+                        </div>
+
+                        <div class="fila">
+                            <div class="columna25">
+                                <label for="id_motivoconsulta">Motivo de la consulta: </label>
+                            </div>
+                            <div class="columna75">
+                                <textarea name="id_motivoconsulta" id="id_motivoconsulta" cols="120" rows="15"></textarea>
+                            </div>
+                        </div>
+
+                        
+                        <h1>Datos animal</h1>
+                        
+
+                        <div class="fila">
+                            <div class="columna25">
+                                <label for="id_chip">CHIP:</label> 
+                            </div>
+                            <div class="columna75">
+                                <input type="text" name="chip" id="id_chip" maxlength="50">
+                            </div>
+                        </div>
+
+                        <div class="fila">
+                            <div class="columna25">
+                                <label for="id_nombreanimal">Nombre:</label>
+                            </div>
+                            <div class="columna75">
+                                <input type="text" name="nombreanimal" id="id_nombreanimal">
+                            </div>
+                        </div>
+
+                        <div class="fila">
+                            <div class="columna25">
+                                <label for="id_alias">Alias: </label>  
+                            </div>
+                            <div class="columna75">
+                                <input type="text" name="alias" id="id_alias">
+                            </div>
+                        </div>
+
+                        <div class="fila">
+                            <div class="columna25">
+                                <label for="id_razas">Raza: </label> 
+                            </div>
+                            <div class="columna75">
+                                <select name="razas" id="id_razas">
+                                    <optgroup  label="Raza">
+                                        <option value="" selected></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="fila">
+                            <div class="columna25">
+                                <label for="id_especies">Especie: </label>
+                            </div>
+                            <div class="columna75">
+                                <select name="especies" id="id_especies">
+                                    <optgroup  label="especie">
+                                        <option value="" selected></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="fila">
+                            <div class="columna25">
+                                <label for="id_sexos">Sexo: </label>
+                            </div>
+                            <div class="columna75">
+                                <select name="id_sexos" id="id_sexos" >
+                                    <optgroup  label="sexo">
+                                        <option value="" selected></option>
+                                        <option value="macho">Macho</option>
+                                        <option value="hembra">Hembra</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="fila">
+                            <div class="columna25">
+                                <label for="id_fechanacimiento">Fecha Nacimiento: </label>
+                            </div>
+                            <div class="columna75">
+                                <input type="date" name="id_fechanacimiento" id="id_fechanacimiento"> 
+                            </div>
+                        </div>
+
+                        <div class="fila">
+                            <div class="columna25">
+                                <label for="id_observaciones">Observaciones: </label>
+                            </div>
+                            <div class="columna75">
+                                <textarea name="observaciones" id="id_observaciones" cols="120" rows="10"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="fila">
+                            <div class="columna25">
+                                
+                            </div>
+                            <div class="columna75">
+                                
+                            </div>
+                        </div>
+                        
+
+                        
+
+                        <div class="fila2">
+                            <div class="botones">
+                                <input type="submit" value="Enviar">
+                                <input type="reset" value="Reset">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+               
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
